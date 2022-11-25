@@ -1,0 +1,37 @@
+1. What are the new tags added in HTML5?
+→  The following tags (elements) have been introduced in HTML5 −
+<article>,<aside >,<audio>,<canvas>,<command>,<datalist><details>,<embed>,<figure>,<footer>,
+<header>,<nav>,<section>,<time>,<video>...
+The input element's type attribute now has the following new values −
+color,date,datetime,datetime,email,month,number,range,search,tel,time,url,week..
+
+2. How to embed audio and video in a webpage?
+→  To embed video in HTML, we use the <video> tag. It contains one or more video sources at a time using <source> tag.
+ It supports MP4, WebM, and Ogg in all modern browsers.
+
+ 3.Semantic element in HTML5? 
+→  A semantic element clearly describes its meaning to both the browser and the developer.
+In HTML there are some semantic elements that can be used to define different parts of a web page:  
+<article>,<aside>,<details>,<figcaption>,<figure>,<footer>,<header>,<main>,<mark>,<nav>,
+<section>,<summary>,<time>....
+
+4. Canvas and SVG tags
+→ Canvas :
+     The HTML <canvas> element is used to draw graphics on a web page.
+The graphic to the left is created with <canvas>. 
+It shows four elements: a red rectangle, a gradient rectangle, a multicolor rectangle, 
+and a multicolor text.
+The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
+The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+ 
+SVG :
+    SVG defines vector-based graphics in XML format.
+SVG stands for Scalable Vector Graphics.
+SVG is used to define graphics for the Web.
+The HTML <svg> Element-
+The HTML <svg> element is a container for SVG graphics.
+SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
+
+
+

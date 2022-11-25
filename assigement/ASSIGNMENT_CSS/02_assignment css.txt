@@ -1,0 +1,80 @@
+1. What are the benefits of using CSS? 
+→CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized  etc..
+CSS saves time − You can write CSS once and then reuse the same sheet in multiple HTML pages.
+
+2.What are the disadvantages of CSS? 
+→There could be cross-browser issues while using CSS.
+There are multiple levels of CSS such as CSS, CSS 2, CSS 3. This can create confusion for non-developers and beginners.
+Limited security ,extra work for developers.etc....
+
+3.name a few css style components
+→The components of css style are:
+Selecter:  HTML element name, id name, class name.
+Property: It's like an attribute such as background color,font-size,position,text-align,color,border etc.
+Values: which defines property or values allocate for properties.
+
+4.What do you understand by CSS opacity?
+→The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, 
+and is the opposite of transparency.
+
+5.How can the background color of an element be changed? 
+→Add a CSS class to the div you'd like to change. First, find the div in your HTML code and add a class to the opening tag. ...
+Add the new class selector to your CSS code. Next, head over to your CSS code and add your new class selector. ...
+Choose a new background color.
+
+6. How can image repetition of the backup be controlled? 
+→To control the repetition of an image in the background, use the background-repeat property. You can use no-repeat value for the 
+background-repeat property if you do not want to repeat an image,in this case, the image will display only once.
+
+7.What is the use of the background-position property? 
+→The background-position property sets the starting position of a background image.
+
+8.Which property controls the image scroll in the background?
+→The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+9. Why should background and color be used as separate properties? 
+→There are two reasons behind this: It enhances the legibility of style sheets. The background property is a complex property in CSS,
+ and if it is combined with color, the complexity will further increase
+
+11.What are the ways to integrate CSS as a web page?
+→CSS can be added to HTML documents in 3 ways:
+1.Inline - by using the style attribute inside HTML elements.
+2.Internal - by using a <style> element in the <head> section.
+3.External - by using a <link> element to link to an external CSS file.
+
+12.What is embedded style sheets? 
+→Embedded Stylesheet: It allows you to define styles for a particular HTML document as a whole in one place. 
+This is done by embedding the <style></style> tags containing the CSS properties in the head of your document.
+
+13.What are the external style sheets? 
+→An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage.
+ Multiple webpages can use the same link to access the stylesheet.
+The link to an external style sheet is placed within the head section of the page.
+
+14.What are the advantages and disadvantages of using external style sheets? 
+→Advantages of External CSS:
+Since the CSS code is in a separate document, your HTML files will have a cleaner structure and are smaller in size.
+You can use the same . css file for multiple pages.
+→Disadvantages of External CSS:
+The additional download is expected to import documents having style information.
+To render the documents, the outer template ought to be stacked.
+Not practical for small style definitions.
+
+15.What is the meaning of the CSS selector?
+→A CSS selector is the first part of a CSS Rule. 
+It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have
+the CSS property values inside the rule applied to them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
