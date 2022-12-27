@@ -1,0 +1,19 @@
+1..What is jQuery?
+....jQuery is a lightweight, "write less, do more", JavaScript library. 
+The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+
+2..How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,JQuery Animation?
+... CSS Using JQuery - The css() method sets or returns one or more style properties for the selected elements.
+..Add Class in Jquery - The addClass() method adds one or more class names to the selected elements. 
+..Remove Class in Jquery -The removeClass() method removes one or more class names from the selected elements.
+..JQuery Animation - The jQuery animate() method is used to create custom animations.
+
+
+3..How to create slider with animation? 
+....Step 1: Come up with a strategy for the slider. 
+You can make as many modifications as you want to Slider Revolution templates. ...
+Step 2: Update the background image in each slide. ...
+Step 3: Update the text layers in each slide. ...
+Step 4: Edit the button text and design in each slide. ...
+Step 5: Edit the slider navigation.
