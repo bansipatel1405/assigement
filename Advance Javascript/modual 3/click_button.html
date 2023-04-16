@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #nav{
+        text-align: center;
+        padding: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        align-items: center;
+    }
+    a:hover{
+        background-color: pink;
+        border-radius: 20px;
+    }
+</style>
+<body>
+<div class="container">
+    <div id="nav" onclick="prepareShowElement">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Serivices</a>
+        <a href="#">contact</a>
+        <a href="#">Blog</a>
+        <a href="#">page</a>
+
+    </div>
+</div>
+</body>
+</html>
+<script>
+    function prepareShowElement () {
+  var nav = document.getElementById('nav');
+  var links = nav.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click',function() { 
+        alert(links[i].title);
+    },false);
+  }
+}
+</script>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+    <form autocomplete="off" method="post" action="">
+        <p>Title:<input type="text" /></p>
+        <button onclick="addItem(); return false;">Add Item</button>
+        <button onclick="removeItem(); return false;">Remove Last Item</button>
+        <table>
+            <th>Name</th>
+
+            <tr>
+                <td><input type="text" id="input1" name="input1" /></td>
+                <td><input type="hidden" id="input2" name="input2" /></td>
+            </tr>
+        </table>
+        <input id="submit" type="submit" name="submit" value="Submit">
+    </form>
+
+</body>
+</html>
