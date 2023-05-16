@@ -1,0 +1,27 @@
+.image img{max-width:1430px; border-radius: 30px; margin:20px;}
+.image{position: relative;}
+.title-content{position: absolute; top: 25%; left: 5%;}
+
+.title-content h2{font-size: 3rem; color: #253D4E; font-weight: 600;}
+.title-content p{color: #7E7E7E; font-size: 2rem; font-weight: 400;}
+form {
+   
+}
+.myinput{
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px 50px;
+    width: 90%;
+    position: relative;
+    /* text-align: start; */
+
+}
+.mbtn{background-color: #3BB77E; border-radius: 50px; width: 40%;
+    padding: 15px 50px; position: absolute; left: 50%;}
+    /* .next{top: 50%;} */
+/* .button-next-slide{position: absolute;  top: 50%;}
+.prev{position: absolute;  top: 50%} */
+.button-next-slide{width: 30px; height: 30px; background-color: white; color: white;
+position: absolute; z-index: 1; top: 50%;left: 3%;border-radius: 50%; color: #7E7E7E; align-items:center; padding: 3px;}
+.button-prev-slide{width: 30px; height: 30px; background-color: white; color: white;
+    position: absolute; top: 50%;right: 3%;z-index: 1; border-radius: 50%; color: #7E7E7E; align-items: center; padding: 3px;}

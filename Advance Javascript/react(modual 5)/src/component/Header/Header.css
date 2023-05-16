@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;
+cursor: pointer;
+color: #7E7E7E;}
+.search{width: 100%; border: 2px solid green; padding: 0.5em; border-radius: 10px; margin-left: 40px;}
+.select-active{border: 0; padding: 0px 6px;}
+input{border: 0;  outline: none; padding: 0 40px;}
+/* .vr{width: 1px; height: 30px;color: black; margin-left:10px;} */
+.header-icon{margin: 20px;}
+.header-icon img{font-size: 100px;}
+.blue{background-color: #3BB77E; border-radius: 50%; padding: 8px; width: 10px!important; height: 10px;}
+.lable{margin: 5px 0px 0px 0px;}
